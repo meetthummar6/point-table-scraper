@@ -21,4 +21,4 @@ jobs:
         run: node scrape.js
       - name: Env Setup
         env:
-          MONGODB_URI: ${{ secrets.MONGODB_URI }}
+          MONGODB_URI: ${{secrets.MONGODB_URI}}
